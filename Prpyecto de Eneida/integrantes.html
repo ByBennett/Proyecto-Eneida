@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrantes del equipo</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<style>
+	.table1 {
+		border-radius: 8px;
+		color: white;
+		padding: 150px;
+		border-collapse: collapse;
+		margin: auto;
+		border-radius: 8px;
+	}
+
+	a
+
+	table, th, td {
+		border-radius: 8px;
+  		border: 2px solid rgb(202, 224, 219);
+  		border-collapse: collapse;
+  		padding: 20px;
+		text-align: center;
+		
+		
+	}
+	#fechahoy {
+			font-size:1.2em;
+			color: bisque;
+			margin:12px;
+			padding: 12px;
+			border: 12px;
+		}
+</style>
+<body>
+    <header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<h1>Logotipo</h1>
+			</div>
+			<nav class="menu">
+				<a href="MenuLat.html">Inicio</a>
+                <a href="integrantes.html">Integrantes</a>
+			</nav>
+		</div>
+	</header>
+	<div class="capa"></div>
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="MenuLat.html">¿Que es el criptoarte?</a>
+            <a href="comoFunc.html">¿Como funciona?</a>
+            <a href="ventajasV2.html">Ventajas y desventajas</a>
+            <a href="querelacion.html">Relacion de NFTs con el Criptoarte</a>
+            <a href="tiendascomprar.html">Webs y tiendas para comprar NFTs</a>
+            <a href="ArtistasFamosos.html">Artistas famosos del Criptoarte</a>
+            <a href="daños.html">Daños ambientales que provocan los NFTs</a>
+			<a href="borregoPrinc.html">Santiago Borges</a>
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
+
+<!-- divicion -->
+
+<div id="fechahoy" align="center"></div>		
+<script>
+var d=new Date();var month=new Array(12);month[0]='Enero';month[1]='Febrero';month[2]='Marzo';month[3]='Abril';month[4]='Mayo';month[5]='Junio';month[6]='Julio';month[7]='Agosto';month[8]='Septiembre';month[9]='Octubre';month[10]='Noviembre';month[11]='Diciembre';var todaysDate=+d.getDate()+' de '+month[d.getUTCMonth()]+' del '+d.getUTCFullYear();
+document.getElementById('fechahoy').innerHTML='Hoy es: '+todaysDate;
+</script>
+
+  <table class="table1">
+	<tbody class="table2">
+		<tr>
+	  		<th><h2>NOMBRE</h2></th>
+	  		<th><h2>GRUPO</h2></th>
+	  		<th><h2>CARRERA</h2></th>
+		</tr>
+		<tr>
+	  		<td>Mariana Dominguez Pavon</td>
+	  		<td>604</td>
+	 	 	<td>Informatica</td>
+		</tr>
+		<tr>
+	  		<td>Alan David Campos Avan</td>
+	  		<td>604</td>
+	  		<td>Informatica</td>
+		</tr>
+		<tr>
+	  		<td>Lucia Darlet Rodriguez Hernandez</td>
+	 		<td>604</td>
+	 		<td>Informatica</td>
+		</tr>
+		<tr>
+			<td>Brayan Alberto Arriaga Alfaro</td>
+			<td>604</td>
+			<td>Informatica</td>
+	  	</tr>
+	  	<tr>
+			<td>Joel Bennett Ake Olive</td>
+			<td>604</td>
+			<td>Informatica</td>
+  		</tr>
+		<tr>
+			<td>Isaac Alejandro Arjona Vazquez</td>
+			<td>604</td>
+			<td>Informatica</td>
+	  	</tr>
+		<tr>
+			<td>Josue Daniel Hau Flores</td>
+			<td>604</td>
+			<td>Informatica</td>
+	  	</tr>
+		  <tr>
+			<td>Santiago Borges Cime</td>
+			<td>604</td>
+			<td>Informatica</td>
+	  	</tr>
+	</tbody>
+  </table>
+    
+</body>
+</html>
